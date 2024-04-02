@@ -1,0 +1,64 @@
+@roboto-mono-<uniquifier> {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body {
+
+    font-family: "Roboto Mono", monospace;
+    color: #333;
+    font-size: 18px;
+    background-image: url(assets/images/illustration-sign-up-desktop.svg);
+    background-size: cover;
+    background-position: right ;
+    background-size:50%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+    
+    
+}
+
+.container {
+    padding: 50px;
+    
+}
+
+ul {
+    list-style-image: url(assets/images/icon-list.svg);
+
+}
+
+h1 {
+    line-height: 2;
+}
+
+h4 {
+    line-height: 2;
+}
+
+#emailForm input[type="email"] {
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+ padding: 10px;
+border: 1px solid #ccc;
+    border-radius: 4px ;
+    background-image: linear-gradient(to right, pink, orange);
+    color: #333;
+}
+
+button:hover{
+    background-color:#333 ;
+}
+
+
+li {
+    line-height: 1.5;
+}
